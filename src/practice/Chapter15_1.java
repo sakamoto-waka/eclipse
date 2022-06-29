@@ -12,8 +12,11 @@ public class Chapter15_1 {
 		if (b == 0) {
 			return a;
 		}
-		return gcd(b, a%b);
+//		ループさせる
+		return gcd(b, a % b);
 	}
-	
-	
+
+
+
+
 }
