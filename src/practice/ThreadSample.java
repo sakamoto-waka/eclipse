@@ -5,7 +5,7 @@ public class ThreadSample implements Runnable {
 	public ThreadSample(int num) {
 		this.num = num;
 	}
-	
+
 	public void run() {
 		for (int i = 1; i <= 3; i++) {
 			try {
@@ -16,5 +16,5 @@ public class ThreadSample implements Runnable {
 			}
 		}
 	}
-	
+
 }

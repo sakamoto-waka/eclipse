@@ -7,7 +7,7 @@ public class Chapter15_4 {
 			Thread thread = new Thread(mt);
 			thread.start();
 		}
-		
+
 		for (int i = 1; i <= 3; i++) {
 			try {
 				Thread.sleep(1000);
