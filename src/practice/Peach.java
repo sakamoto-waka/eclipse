@@ -16,5 +16,4 @@ public class Peach extends Fruit {
 	protected BigDecimal getPrice() {
 		return price;
 	}
-
 }
