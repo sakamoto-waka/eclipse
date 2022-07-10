@@ -2,16 +2,16 @@ package practice;
 import java.math.BigDecimal;
 
 class Apple extends Fruit {
-	Apple(String name, BigDecimal proce) {
+	Apple(String name, BigDecimal price) {
 		super(name, price);
 	}
-	
-	@override
+
+	@Override
 	protected String getName() {
 		return name;
 	}
-	
-	@override
+
+	@Override
 	protected BigDecimal getPrice() {
 		return price;
 	}
