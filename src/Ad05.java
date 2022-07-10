@@ -1,8 +1,9 @@
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class Collections implements Comparator {
+public class Ad05 {
 
 	public static void main(String[] args) {
 		List<String> animals = Arrays.asList("dog", "cat", "fox", "elephant");
@@ -15,5 +16,6 @@ public class Collections implements Comparator {
 						return x.compareTo(y);
 					}
 				});
+		System.out.println(animals);
 	}
 }
