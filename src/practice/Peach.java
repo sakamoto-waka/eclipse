@@ -3,18 +3,18 @@ package practice;
 import java.math.BigDecimal;
 
 public class Peach extends Fruit {
-	Peach(String name, BigDecimal proce) {
+	Peach(String name, BigDecimal price) {
 		super(name, price);
 	}
-	
-	@override
+
+	@Override
 	protected String getName() {
 		return name;
 	}
-	
-	@override
+
+	@Override
 	protected BigDecimal getPrice() {
 		return price;
 	}
-}
+
 }
